@@ -1,0 +1,104 @@
+html,body{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.header{
+	position: relative;
+	width: 100%;
+	background: url(banner.png) no-repeat ;
+	background-size: 100% 100%;
+	padding-bottom: 55.55%;
+}
+
+/* 二维码位置 */
+.header > .qrcode{
+	position: absolute;
+	width: 9%;
+	height: 16%;
+	left: 53.4%;
+	bottom: 20%;
+	text-align: center;
+}
+
+.header > .qrcode > .qrcode_image{
+	width: 100%;
+	height: 100%;
+	background: url(qrcode.png) no-repeat center center;
+	background-size: 100% 100%;
+	margin-bottom: 10px;
+}
+
+.header > .qrcode > span{
+	font-size: 1rem;
+}
+
+/* android icon*/
+.android_icon,.ios_icon{
+	position: absolute;
+	width: 12.5%;
+	height: 6.2%;
+	bottom: 20%;
+}
+
+.android_icon{
+	background: url(android.png) no-repeat center center;
+	background-size: 100% 100%;
+	left: 65.4%;
+}
+
+/*ios icon*/
+.ios_icon{
+	background: url(ios.png) no-repeat center center;
+	background-size: 100% 100%;
+	left: 79.4%;
+}
+
+/* 中间内容部分 */
+.content{
+	position: relative;
+	width: 100%;
+}
+
+.company_content{
+	position: relative;
+	padding: 10% 15%;
+}
+
+.product_content{
+	position: relative;
+	padding: 2% 15% 10% 15%;
+}
+
+/*蓝色标签*/
+.company_content > .tags_blue,.product_content > .tags_blue{
+	width: 50px;
+	height: 10px;
+	background-color:#5c6bc1;
+	margin: 20px 0 20px 0;
+	border-radius: 25px;
+}
+
+/*底部*/
+.footer{
+	position: relative;
+	width: 100%;
+	background-color: #fdfdfd;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 3% 0;
+}
+
+.footer > span , .footer> a{
+	font-size: 13px;
+	color: #8e8e8e;
+}
+
+a{
+	text-decoration: none;
+}
