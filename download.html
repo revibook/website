@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>android下载</title>
+	</head>
+	<body>
+		<script type="application/javascript">
+			var eleLink = document.createElement('a');
+			eleLink.setAttribute("href", "https://files.revibook.com/2020/10/27/eb22992c4042d07a80eb8c0848041df7.apk");
+			eleLink.setAttribute("download","复书");
+			eleLink.style.display = 'none';
+			// 触发点击
+			document.body.appendChild(eleLink);
+			eleLink.click();
+			// 然后移除
+			document.body.removeChild(eleLink);
+		</script>
+	</body>
+</html>

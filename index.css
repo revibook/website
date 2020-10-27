@@ -35,6 +35,10 @@ html,body{
 	font-size: 1rem;
 }
 
+.header > a{
+	display: block;
+}
+
 /* android icon*/
 .android_icon,.ios_icon{
 	position: absolute;
